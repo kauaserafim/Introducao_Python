@@ -48,4 +48,9 @@ print("Olá {}! Você tem {} anos.".format(nome_completo,idade))
 # Exemplo 2:
 print("Olá {0}! Você tem {1} anos.".format(nome_completo,idade))
 
+# Exemplo 3:
+print(f"olá {nome_completo}! Você tem {idade} anos.")
+
+# Converter valores de variáveis
+
 
