@@ -35,7 +35,14 @@ print(mensagem.isnumeric()) # Identificar se é Número
 print(mensagem.replace(" não", "")) # Substitui a palavra por outra
 
 # Dados do Teclado
-idade = input("informe sua idade: ")
-print("sua idade eh: ",idade)
+# idade = input("informe sua idade: ")
+# print("sua idade eh: ",idade)
+
+# Formatar Strings
+nome_completo = input("informe seu nome completo: ")
+idade = input("informe a idade: ")
+
+# Exemplo 1:
+print("Olá {}! Você tem {} anos.".format())
 
 
