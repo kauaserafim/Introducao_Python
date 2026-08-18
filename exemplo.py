@@ -1,11 +1,13 @@
 # Inserindo uma informação
 print("Meu nome é Kauã")
 
+
 # Identificando um Tipo de Dado
 print(type(10))
 print(type("olá mundo"))
 print(type(3.5))
 print(type(3 + 2j))
+
 
 # Manipulando Variáveis
 nome = "Kauã"
@@ -22,9 +24,11 @@ sobrenome = "Serafim"
 nome_completo = nome + " " + sobrenome
 print(nome_completo)
 
+
 # Multiplicar Strings
 cidade = 'Presidente Prudente ' * 3
 print(cidade)
+
 
 # Funções Nativas para Strings
 mensagem = "O palmeiras não tem mundial!"
@@ -34,9 +38,11 @@ print(mensagem.capitalize()) # Primeira Letra de cada palavra Maiúsculo
 print(mensagem.isnumeric()) # Identificar se é Número
 print(mensagem.replace(" não", "")) # Substitui a palavra por outra
 
+
 # Dados do Teclado
-# idade = input("informe sua idade: ")
-# print("sua idade eh: ",idade)
+idade = input("informe sua idade: ")
+print("sua idade eh: ",idade)
+
 
 # Formatar Strings
 nome_completo = input("informe seu nome completo: ")
@@ -51,6 +57,20 @@ print("Olá {0}! Você tem {1} anos.".format(nome_completo,idade))
 # Exemplo 3:
 print(f"olá {nome_completo}! Você tem {idade} anos.")
 
+
 # Converter valores de variáveis
+numero = input("informe um número: ")
+print(type(numero))
+numero_aux = int(numero)
+print(type(numero_aux))
+
+
+# Operações Matemáticas
+num = int(input("informe o primeiro numero"))
+num2 = int(input("informe o segundo numero"))
+print(num + num2) # Soma
+print(num - num2) # Subtração
+print(num * num2) # Multiplicação
+print(num / num2) # Divisão
 
 
