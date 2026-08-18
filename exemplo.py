@@ -43,6 +43,9 @@ nome_completo = input("informe seu nome completo: ")
 idade = input("informe a idade: ")
 
 # Exemplo 1:
-print("Olá {}! Você tem {} anos.".format())
+print("Olá {}! Você tem {} anos.".format(nome_completo,idade))
+
+# Exemplo 2:
+print("Olá {0}! Você tem {1} anos.".format(nome_completo,idade))
 
 
